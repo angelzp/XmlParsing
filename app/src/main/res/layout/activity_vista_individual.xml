@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.angel.xmlparsing.vista_individual">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a_n_serie"
+        android:text="@string/serie"
+        android:textColor="#FF0007AB"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_a_marca"
+        android:text="@string/marca"
+        android:textColor="#FF0007AB"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_a_modelo"
+        android:text="@string/modelo"
+        android:textColor="#FF0007AB"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_a_color"
+        android:text="@string/color"
+        android:textColor="#FF0007AB"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"/>
+
+</LinearLayout>
